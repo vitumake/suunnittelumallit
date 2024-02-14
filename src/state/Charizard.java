@@ -6,7 +6,7 @@ public class Charizard implements PokemonState {
 
     // Constructor
     public Charizard() {
-        System.out.println("Charizard appeared!");
+        System.out.println("Charizard appeared!\n");
     }
 
     // Perform action
@@ -37,10 +37,5 @@ public class Charizard implements PokemonState {
     @Override
     public int getXp() {
         return xp;
-    }
-
-    @Override
-    public PokemonState.Evolution getEvolution() {
-        return PokemonState.Evolution.Charizard;
     }
 }

@@ -6,7 +6,7 @@ public class Charmeleon implements PokemonState {
 
     // Constructor
     public Charmeleon() {
-        System.out.println("Charmeleon appeared!");
+        System.out.println("Charmeleon appeared!\n");
     }
 
     // Perform action
@@ -37,10 +37,5 @@ public class Charmeleon implements PokemonState {
     @Override
     public int getXp() {
         return xp;
-    }
-
-    @Override
-    public PokemonState.Evolution getEvolution() {
-        return PokemonState.Evolution.Charmeleon;
     }
 }

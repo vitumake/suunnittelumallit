@@ -8,7 +8,7 @@ public class Main {
         Pokemon pokemon = new Pokemon();
         
         // Perform actions
-        while (pokemon.getState().getEvolution() != PokemonState.Evolution.Charizard){
+        while (pokemon.getState() instanceof Charizard == false){
             pokemon.performAction();
         }
     }

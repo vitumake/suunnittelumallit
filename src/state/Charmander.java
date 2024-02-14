@@ -16,7 +16,7 @@ public class Charmander implements PokemonState {
         // Perform action
         switch(action) {
             case ATTACK:
-                System.out.println("Charmander used Blaze!");
+                System.out.println("Charmander used Blaze!\n");
                 // Gain XP 10-20
                 xp += 10 + (int)(Math.random() * 10);
                 break;
@@ -37,10 +37,5 @@ public class Charmander implements PokemonState {
     @Override
     public int getXp() {
         return xp;
-    }
-
-    @Override
-    public PokemonState.Evolution getEvolution() {
-        return PokemonState.Evolution.Charmander;
     }
 }

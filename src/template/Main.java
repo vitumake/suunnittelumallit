@@ -8,6 +8,8 @@ public class Main {
         // Create a new game
         Yahtzee game = new Yahtzee();
         
+        // Lähti vähän lapasesta tää pelikehitys :)
+
         // Play the game
         game.playOneGame(2);
     }

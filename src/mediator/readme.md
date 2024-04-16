@@ -48,7 +48,7 @@ Tulostaulu saa tulosrivin kisasihteeriltä ja tulostaa sen.
 title: Mäkihyppykisa
 ---
 classDiagram
-left to right direction
+direction TB
     class Mediator{
     <<Interface>>
         +sendMessage(string message)
